@@ -48,7 +48,7 @@ import './App.css';
 
             if (pic.search('m4v') > 0) {
 
-              return <video key={index} src={`img/${pic}`} controls></video>
+              return <video key={index} playsInline src={`img/${pic}`} controls></video>
 
             } else {
 
